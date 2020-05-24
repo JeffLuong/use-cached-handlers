@@ -1,0 +1,43 @@
+{
+  "name": "use-cached-handlers",
+  "version": "0.0.1",
+  "description": "Simple React hook to cache event handlers.",
+  "main": "./dist/useCachedHandlers.js",
+  "types": "./dist/useCachedHandlers.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ./src",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffLuong/use-cached-handlers.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "cache",
+    "event handler"
+  ],
+  "author": "Jeffrey Luong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeffLuong/use-cached-handlers/issues"
+  },
+  "homepage": "https://github.com/JeffLuong/use-cached-handlers#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "typescript": "^3.9.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
