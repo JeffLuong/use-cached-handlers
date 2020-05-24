@@ -10,7 +10,7 @@ In short, this hook can avoid redefining functions - which as a result, re-rende
 **NOTE: Do NOT use this hook if your list items SHOULD be re-rendered as a side-effect of updated parent state!**
 
 Example usage:
-```
+```jsx
 const [getHandlers] = useCachedHandlers((event) => {
   // handle click/hover/etc. event
 }, [...hookDependencies]);
